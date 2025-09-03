@@ -87,3 +87,4 @@ if st.button("📤 Generate HTML Report"):
         f'font-size:16px;border-radius:6px;text-decoration:none;">⬇️ Download Report (HTML)</a>',
         unsafe_allow_html=True,
     )
+st.markdown("For PDF downloading, it will update soon. Stay tuned! 🚀")

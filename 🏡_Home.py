@@ -7,7 +7,7 @@ from modules.insights import generate_insights
 
 # ------------------ PAGE CONFIG ------------------
 st.set_page_config(
-    page_title="One-Click Dataset Visualizer",
+    page_title="Dataset Visualizer",
     layout="wide",
     initial_sidebar_state="expanded"
 )
@@ -26,7 +26,7 @@ st.markdown(
 )
 
 st.markdown('<p class="main-title">📊 One-Click Dataset Visualizer</p>', unsafe_allow_html=True)
-st.markdown('<p class="subtitle">Upload → Explore → Export. No code required.</p>', unsafe_allow_html=True)
+st.markdown('<p class="subtitle">Upload → Explore → Export.</p>', unsafe_allow_html=True)
 
 st.markdown("---")
 

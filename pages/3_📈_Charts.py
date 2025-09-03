@@ -5,10 +5,10 @@ import pandas as pd
 
 st.title("📊 Charts")
 
-if 'df' not in st.session_state:
+if "df" not in st.session_state or st.session_state["df"] is None:
     st.info("⚠️ Upload a dataset in Home first.")
 else:
-    df = st.session_state['df']
+    df = st.session_state["df"]
     cols = df.columns.tolist()
 
     chart_type = st.selectbox(

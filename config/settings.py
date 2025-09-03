@@ -1,5 +1,5 @@
 # config/settings.py
-APP_TITLE = "One Click Dataset Visualizer"
+APP_TITLE = "Dataset Visualizer"
 APP_VERSION = "1.0.0"
 
 # File upload settings (MB)
