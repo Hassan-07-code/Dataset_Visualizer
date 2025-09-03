@@ -1,7 +1,6 @@
 # pages/3_📊_Charts.py
 import streamlit as st
 from modules.visualization import generate_chart
-import pandas as pd
 
 st.title("📊 Charts")
 
@@ -27,7 +26,7 @@ else:
             fig, png_bytes = generate_chart(df, chart_type, x=x, y=y)
 
             # Show chart interactively
-            st.plotly_chart(fig, use_container_width=True)
+            st.plotly_chart(fig, width="stretch")
 
             # ✅ Store the FIGURE (for HTML export)
             st.session_state.setdefault("charts_figs", {})[

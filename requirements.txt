@@ -12,6 +12,7 @@ openpyxl>=3.1.2        # Excel file support
 # ================================
 plotly>=5.20.0         # Interactive charts
 kaleido>=0.2.1         # Export Plotly charts (PNG/SVG/PDF)
+matplotlib>=3.9.0
 
 # ================================
 # 📝 Reporting & Export
